@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "serverless-python"
+version = "0.1.0"
+description = ""
+authors = ["yuhyeongchan <gudcks305@gmail.com>"]
+readme = "README.md"
+packages = [{include = "serverless_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dateutil = "^2.9.0.post0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
